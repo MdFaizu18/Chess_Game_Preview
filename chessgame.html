@@ -1,0 +1,225 @@
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        
+        <title>Chess Board</title>
+        <style>
+          html{
+            background-color: blue;
+          }
+        
+        .row{
+            width:100%;
+            height:5.5vh;
+            
+
+        }
+        .box{
+            width:9.75vw;
+            height:5.5vh;
+            float:left;
+            font-size: 5em;
+            text-align: center;
+
+        }
+        .black{
+            background-color: black;
+            color:white;
+        }
+        .box:hover{
+            background-color:red;
+            color:white;
+        }
+        .chessbox{
+            margin-top: 10vh;
+            background-color: white;
+            width:78vw;
+            height:44vh;
+         
+            /* margin-top: 70px; */
+            margin-left: 11vw; 
+
+    
+        }
+        .header1{
+            font-size: 8em;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin-top: 15vh;
+            margin-left:14vw;
+            color:white;
+            border-bottom:3px solid white;
+            width: fit-content;
+            border-bottom-right-radius:30px ;
+            border-bottom-left-radius:30px ;
+        
+        }
+        .footer1{
+            color:white;
+            font-size: 2.5em;
+            margin-top: 10vh;
+            margin-left: 34vw;
+        }
+        .footer1 p{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .oneto{
+            font-family: cursive;
+        }
+        @media screen and (min-width:1000px)
+        {
+            html{
+            background-color: blue;
+          }
+        body{
+         
+
+        }
+        .row{
+            width:100%;
+            height:60px;
+            
+
+        }
+        .box{
+            width:60px;
+            height:60px;
+            float:left;
+            font-size: 50px;
+            text-align: center;
+
+        }
+        .black{
+            background-color: black;
+            color:white;
+        }
+        .box:hover{
+            background-color:red;
+            color:white;
+        }
+        .chessbox{
+            background-color: white;
+            width:480px;
+            height:480px;
+            margin-top: 5vw;
+            margin-left: 35vw; 
+             /* margin: 20vh 5vw 10vw 7vh;  */
+    
+        }
+        .header1{
+            font-size: 4em;
+            margin-left: 40vw;
+            margin-top: 4vh;
+            color:white;
+        }
+           
+        .footer1{
+            font-size: 1.2em;
+            color:white;
+            margin-left: 80vw;
+        }
+        
+    }
+        </style>
+
+    </head>
+    <body>
+        <div class="header1">
+            Chess Game
+        </div>
+   <div class="chessbox">
+        <div class="row">
+            
+            <div class="box">&#9820</div>
+            <div class="box black">&#9816</div>
+            <div class="box">&#9821</div>
+            <div class="box black">&#9812</div>
+            <div class="box">&#9819</div>
+            <div class="box black">&#9821</div>
+            <div class="box">&#9816</div>
+            <div class="box black">&#9820</div>
+        </div>
+        <div class="row">
+            <div class="box black">&#9817</div>
+            <div class="box">&#9823</div>
+            <div class="box black">&#9817</div>
+            <div class="box">&#9823</div>
+            <div class="box black">&#9817</div>
+            <div class="box">&#9823</div>
+            <div class="box black">&#9817</div>
+            <div class="box">&#9823</div>
+        </div>
+        <div class="row">
+            
+            <div class="box"></div>
+            <div class="box black"></div>
+            <div class="box"></div>
+            <div class="box black"></div>
+            <div class="box"></div>
+            <div class="box black"></div>
+            <div class="box"></div>
+            <div class="box black"></div>
+        </div>
+        <div class="row">
+            <div class="box black"></div>
+            <div class="box"></div>
+            <div class="box black"></div>
+            <div class="box"></div>
+            <div class="box black"></div>
+            <div class="box"></div>
+            <div class="box black"></div>
+            <div class="box"></div>
+        </div>
+        <div class="row">
+            
+            <div class="box"></div>
+            <div class="box black"></div>
+            <div class="box"></div>
+            <div class="box black"></div>
+            <div class="box"></div>
+            <div class="box black"></div>
+            <div class="box"></div>
+            <div class="box black"></div>
+        </div>
+        <div class="row">
+            <div class="box black"></div>
+            <div class="box"></div>
+            <div class="box black"></div>
+            <div class="box"></div>
+            <div class="box black"></div>
+            <div class="box"></div>
+            <div class="box black"></div>
+            <div class="box"></div>
+        </div>
+        <div class="row">
+            
+            <div class="box">&#9823</div>
+            <div class="box black">&#9817</div>
+            <div class="box">&#9823</div>
+            <div class="box black">&#9817</div>
+            <div class="box">&#9823</div>
+            <div class="box black">&#9817</div>
+            <div class="box">&#9823</div>
+            <div class="box black">&#9817</div>
+        </div>
+        <div class="row">
+            <div class="box black">&#9814</div>
+            <div class="box">&#9822</div>
+            <div class="box black">&#9815</div>
+            <div class="box">&#9818</div>
+            <div class="box black">&#9813</div>
+            <div class="box">&#9821</div>
+            <div class="box black">&#9816</div>
+            <div class="box">&#9820</div>
+        </div>
+    </div>
+    <div class="footer1">
+        <footer>
+           <p>  Done by  &copy;<span class="oneto"> Faizu</span></p>
+          
+     
+        </footer>
+    </div>
+    </body>
+</html>
